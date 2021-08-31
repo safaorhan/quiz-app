@@ -10,7 +10,7 @@ This app was intended to be a trivia app where users answers questions to compet
 - Hilt: Dependency Injection
 - Lottie: Animations
 - Jetpack Navigation: Navigation system
-- ViewModel, Kotlin Coroutines, Kotlin Flow, Kotlin StateFlow, Kotlin DataStore, Data Binding Library, ...
+- ViewModel, Kotlin Coroutines, Kotlin Flow, Kotlin StateFlow, Jetpack DataStore, Data Binding Library, ...
 
 ## Test Libraries Used
 - JUnit4
