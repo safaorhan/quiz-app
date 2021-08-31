@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_of_all">First of all,</string>
+    <string name="lets_choose_the_theme">Let\'s choose the theme of the questions.</string>
+    <string name="random">Random</string>
+    <string name="best_score">Best score: %d</string>
+</resources>

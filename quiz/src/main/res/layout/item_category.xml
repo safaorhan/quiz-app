@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.hoopow.apps.quiz.quiz.QuizConfigViewModel" />
+
+        <variable
+            name="category"
+            type="com.hoopow.apps.quiz.quiz.category.Category" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="216dp"
+        android:layout_height="296dp"
+        android:background="@drawable/card_background"
+        android:minWidth="216dp"
+        android:minHeight="296dp"
+        android:stateListAnimator="@animator/button_state_list_animator"
+        android:onClick="@{() -> viewModel.onCategoryClick(category)}">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/grandstander_semibold"
+            android:text="@{category.label}"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@id/scoreLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Les Prophètes" />
+
+        <LinearLayout
+            android:id="@+id/scoreLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.hoopow.apps.ui.components.StarView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:starCount="@{category.starCount}" />
+
+            <TextView
+                android:id="@+id/bestScoreText"
+                bestScore="@{category.bestScore}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/secondary_text"
+                tools:text="Best score: 123" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

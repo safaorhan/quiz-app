@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.hoopow.apps.signin.SignInFragment"
+        android:label="SignInFragment">
+        <action
+            android:id="@id/sign_in_successful"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.hoopow.apps.splash.SplashFragment"
+        android:label="SplashFragment">
+        <action
+            android:id="@id/splash_completed"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.hoopow.apps.quiz.home.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@id/open_time_trial"
+            app:destination="@id/selectThemeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectThemeFragment"
+        android:name="com.hoopow.apps.quiz.quiz.category.CategoryFragment"
+        android:label="SelectThemeFragment">
+        <action
+            android:id="@id/go_to_next_screen"
+            app:destination="@id/selectThemeFragment" />
+    </fragment>
+
+    <action
+        android:id="@id/sign_in_required"
+        app:destination="@id/signInFragment" />
+
+</navigation>

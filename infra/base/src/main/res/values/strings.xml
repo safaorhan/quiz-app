@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty"> </string>
+    <string name="check_connectivity">Please check your internet connection.</string>
+    <string name="unexpected_error_occurred">Unexpected error occurred.</string>
+    <string name="loading">Loading…</string>
+</resources>

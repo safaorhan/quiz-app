@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_cta_text_shadow_dy">4dp</dimen>
+    <dimen name="base_padding_bottom">64dp</dimen>
+</resources>

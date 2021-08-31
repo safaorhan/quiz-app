@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="BDouin_Quiz.api" target="11" />
+      <module name="BDouin_Quiz.app" target="11" />
+      <module name="BDouin_Quiz.auth" target="11" />
+      <module name="BDouin_Quiz.buildSrc" target="11" />
+      <module name="BDouin_Quiz.home" target="11" />
+      <module name="BDouin_Quiz.infra.base" target="11" />
+      <module name="BDouin_Quiz.infra.test-support" target="11" />
+      <module name="BDouin_Quiz.quiz" target="11" />
+      <module name="BDouin_Quiz.signin" target="11" />
+      <module name="BDouin_Quiz.splash" target="11" />
+      <module name="BDouin_Quiz.ui-components" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+[
+  {
+    "gameDay": "2021-05-09",
+    "createdDate": "2021-05-09T09:42:58.221Z",
+    "level": 0,
+    "yearCategoryLevel": "2021_2_0",
+    "userId": "dd14846d-f77d-4263-9ee5-4a2dd9525cd5",
+    "category": 2,
+    "userKey": "AAAA_2021_2_0",
+    "score": 950,
+    "name": "AAAA"
+  },
+  {
+    "gameDay": "2021-06-14",
+    "createdDate": "2021-06-14T07:33:15.797Z",
+    "level": 0,
+    "yearCategoryLevel": "2021_2_0",
+    "userId": "dd14846d-f77d-4263-9ee5-4a2dd9525cd5",
+    "category": 2,
+    "userKey": "Hakim_2021_2_0",
+    "score": 800,
+    "name": "Hakim"
+  },
+  {
+    "gameDay": "2021-06-14",
+    "createdDate": "2021-06-14T07:31:18.565Z",
+    "level": 0,
+    "yearCategoryLevel": "2021_2_0",
+    "userId": "dd14846d-f77d-4263-9ee5-4a2dd9525cd5",
+    "category": 2,
+    "userKey": "Noaim_2021_2_0",
+    "score": 424242,
+    "name": "Noaim"
+  },
+  {
+    "gameDay": "2021-06-09",
+    "createdDate": "2021-06-09T08:26:01.416Z",
+    "level": 0,
+    "yearCategoryLevel": "2021_2_0",
+    "userId": "dd14846d-f77d-4263-9ee5-4a2dd9525cd5",
+    "category": 2,
+    "userKey": "aaaa_2021_2_0",
+    "score": 2570,
+    "name": "aaaa"
+  }
+]

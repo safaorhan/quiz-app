@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cta_button_positive">#6BC9DC</color>
+    <color name="cta_button_warning">#FFBF44</color>
+    <color name="cta_button_error">#EA6A6A</color>
+    <color name="cta_button_neutral">#B880FF</color>
+    <color name="cta_button_text_shadow">#14000000</color>
+
+    <color name="black_overlay">#B3000000</color>
+
+    <color name="white">000000</color>
+    <color name="black">#000000</color>
+    <color name="secondary_text">#AAAAAA</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NavButton">
+        <item name="android:stateListAnimator">@animator/button_state_list_animator</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="NavButton.Left">
+        <item name="android:background">@drawable/button_nav_left</item>
+    </style>
+
+    <style name="NavButton.Right">
+        <item name="android:background">@drawable/button_nav_right</item>
+    </style>
+</resources>

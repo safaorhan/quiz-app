@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingStart="24dp"
+    android:paddingTop="24dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="32dp">
+    <item
+        android:id="@+id/background"
+        android:drawable="@drawable/button_cta_small_background" />
+    <item
+        android:id="@+id/foreground"
+        android:drawable="@drawable/button_cta_small_foreground" />
+</layer-list>

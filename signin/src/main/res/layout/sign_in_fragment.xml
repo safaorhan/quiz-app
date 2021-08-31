@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.hoopow.apps.signin.SignInViewModel" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="64dp"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:id="@+id/signInLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_half_background"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginBottom="48dp"
+                    android:text="@string/sign_in_welcome_back"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/grandstander_semibold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/sign_in_email"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/emailText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="emailAddress"
+                    android:background="@drawable/rounded_rectangle_gray"
+                    android:hint="@string/sign_in_email"
+                    android:inputType="textEmailAddress"
+                    android:text="@={viewModel.email}"
+                    android:textSize="18sp"
+                    app:fontFamily="@font/nunito_regular" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/sign_in_password"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/passwordText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="password"
+                    android:background="@drawable/rounded_rectangle_gray"
+                    android:hint="@string/sign_in_password"
+                    android:inputType="textPassword"
+                    android:text="@={viewModel.password}"
+                    android:textSize="18sp"
+                    app:fontFamily="@font/nunito_regular" />
+
+                <com.hoopow.apps.ui.components.CTAButton
+                    android:id="@+id/signInButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:drawableStart="@drawable/logo_hoopow"
+                    android:drawablePadding="0dp"
+                    android:lineSpacingExtra="30dp"
+                    android:lineSpacingMultiplier="1"
+                    android:onClick="@{() -> viewModel.onSignInButtonClick()}"
+                    android:text="@string/sign_in_to_hoopow"
+                    android:textSize="22sp"
+                    app:buttonType="positive"
+                    app:size="large" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="64dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.hoopow.apps.ui.components.PopupView
+            isVisible="@{viewModel.isPopupVisible}"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:state="@{viewModel.popupViewState}"
+            android:onClick="@{() -> viewModel.onPopupClick()}" />
+    </FrameLayout>
+</layout>

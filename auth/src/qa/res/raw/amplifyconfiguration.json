@@ -1,0 +1,31 @@
+{
+  "auth": {
+    "plugins": {
+      "awsCognitoAuthPlugin": {
+        "IdentityManager": {
+          "Default": {}
+        },
+        "CredentialsProvider": {
+          "CognitoIdentity": {
+            "Default": {
+              "PoolId": "eu-west-1:REDACTED",
+              "Region": "eu-west-1"
+            }
+          }
+        },
+        "CognitoUserPool": {
+          "Default": {
+            "PoolId": "eu-west-1_REDACTED",
+            "AppClientId": "REDACTED",
+            "Region": "eu-west-1"
+          }
+        },
+        "Auth": {
+          "Default": {
+            "authenticationFlowType": "USER_SRP_AUTH"
+          }
+        }
+      }
+    }
+  }
+}

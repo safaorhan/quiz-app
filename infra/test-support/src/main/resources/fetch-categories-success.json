@@ -1,0 +1,49 @@
+{
+  "lockedTimestamp": 1620293837032,
+  "enableEditMode": true,
+  "locked": false,
+  "lockedBy": "noredineallam@gmail.com",
+  "category_toDelete": [],
+  "mainId": "1615793689969",
+  "id": "1615793689969",
+  "name": "Root",
+  "category": [
+    {
+      "publicationDate": "2021-04-10",
+      "lockedTimestamp": 1621170688352,
+      "enableEditMode": true,
+      "label": "Les Prophètes",
+      "locked": false,
+      "lockedBy": "noredineallam@gmail.com",
+      "categoryKey": 1,
+      "mainId": "1615793689969",
+      "id": "1615793689969-1",
+      "name": "prophete"
+    },
+    {
+      "publicationDate": "2021-05-05",
+      "lockedTimestamp": 1620743951966,
+      "enableEditMode": true,
+      "locked": false,
+      "label": "Pays musulmans",
+      "lockedBy": "noredineallam@gmail.com",
+      "categoryKey": 2,
+      "mainId": "1615793689969",
+      "id": "1615793689969-2",
+      "name": "geo"
+    },
+    {
+      "publicationDate": "2021-04-20",
+      "question_toDelete": [],
+      "lockedTimestamp": 1619004842628,
+      "enableEditMode": true,
+      "label": "Le Coran",
+      "locked": false,
+      "lockedBy": "abdelhakim.atmani@gmail.com",
+      "categoryKey": 3,
+      "mainId": "1615793689969",
+      "id": "1615793689969-3",
+      "name": "Coran"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="time_trial">Time Trial</string>
+    <string name="marathon">Marathon</string>
+    <string name="versus">Versus</string>
+    <string name="coming_soon">Coming soon…</string>
+    <string name="high_score">High score: %s</string>
+    <string name="not_available">N/A</string>
+    <string name="error_fetching_user">Error fetching user.</string>
+</resources>

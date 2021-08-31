@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This layout is not used nor inflated. -->
+<!-- It exists in order to refer to BR.viewModel in :base module -->
+<!-- DON'T DELETE THIS FILE unless you know what you're doing -->
+
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.hoopow.apps.infra.base.BaseViewModel" />
+    </data>
+
+    <View xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</layout>

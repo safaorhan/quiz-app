@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="home/src/main/res/drawable/card_user_background.xml" value="0.1" />
+        <entry key="home/src/main/res/drawable/ic_avatar_placeholder.xml" value="0.39897435897435896" />
+        <entry key="home/src/main/res/drawable/ic_chronometer.xml" value="0.39897435897435896" />
+        <entry key="home/src/main/res/layout/card_marathon.xml" value="0.1921875" />
+        <entry key="home/src/main/res/layout/card_time_trial.xml" value="0.375" />
+        <entry key="home/src/main/res/layout/card_user.xml" value="0.1921875" />
+        <entry key="home/src/main/res/layout/card_versus.xml" value="0.375" />
+        <entry key="home/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="infra/base/src/main/res/layout/base_layout.xml" value="0.30520833333333336" />
+        <entry key="login/src/main/res/layout/login_fragment.xml" value="0.3824074074074074" />
+        <entry key="quiz/src/main/res/layout/fragment_select_theme.xml" value="0.19568567026194145" />
+        <entry key="quiz/src/main/res/layout/item_category.xml" value="0.42662116040955633" />
+        <entry key="signin/src/main/res/drawable/ic_logo.xml" value="0.39897435897435896" />
+        <entry key="signin/src/main/res/drawable/logo_hoopow.xml" value="0.39897435897435896" />
+        <entry key="signin/src/main/res/layout/sign_in_fragment.xml" value="0.36018518518518516" />
+        <entry key="splash/src/main/res/layout/splash_fragment.xml" value="0.1" />
+        <entry key="ui-components/src/main/res/drawable/bg_card.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_large.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_large_background.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_large_foreground.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_medium.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_medium_background.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_medium_foreground.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_small.xml" value="0.29907407407407405" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_small_background.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_cta_small_foreground.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/button_state_list_animator.xml" value="0.21510416666666668" />
+        <entry key="ui-components/src/main/res/drawable/card_background.xml" value="0.375" />
+        <entry key="ui-components/src/main/res/drawable/card_flat_background.xml" value="0.3277777777777778" />
+        <entry key="ui-components/src/main/res/drawable/card_half_background.xml" value="0.38358974358974357" />
+        <entry key="ui-components/src/main/res/drawable/ic_button.xml" value="0.1" />
+        <entry key="ui-components/src/main/res/drawable/ic_button2.xml" value="0.3037037037037037" />
+        <entry key="ui-components/src/main/res/drawable/ic_button_cta_small_background.xml" value="0.21510416666666668" />
+        <entry key="ui-components/src/main/res/drawable/ic_button_cta_small_foreground.xml" value="0.21510416666666668" />
+        <entry key="ui-components/src/main/res/drawable/ic_button_cta_small_foreground_positive.xml" value="0.29907407407407405" />
+        <entry key="ui-components/src/main/res/drawable/ic_cta_button_small_colored.xml" value="0.29907407407407405" />
+        <entry key="ui-components/src/main/res/drawable/ic_cta_button_small_white.xml" value="0.1" />
+        <entry key="ui-components/src/main/res/drawable/ic_logo.xml" value="0.20833333333333334" />
+        <entry key="ui-components/src/main/res/drawable/ic_star_filled.xml" value="0.40520833333333334" />
+        <entry key="ui-components/src/main/res/drawable/ic_stroke.xml" value="0.21510416666666668" />
+        <entry key="ui-components/src/main/res/drawable/illustration_needed.xml" value="0.25052083333333336" />
+        <entry key="ui-components/src/main/res/drawable/rounded_rectangle_gray.xml" value="0.38358974358974357" />
+        <entry key="ui-components/src/main/res/font/grandstander.xml" value="0.21510416666666668" />
+        <entry key="ui-components/src/main/res/font/nunito.xml" value="0.25" />
+        <entry key="ui-components/src/main/res/layout/popup_view_card.xml" value="0.34479166666666666" />
+        <entry key="ui-components/src/main/res/layout/star_view.xml" value="0.2740036231884058" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33813976779032" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
